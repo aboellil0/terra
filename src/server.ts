@@ -11,7 +11,7 @@ import terraRoutes from './routes/terraRoutes.js';
 dotenv.config();
 
 const app: Express = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Connect to MongoDB
 connectDB();
